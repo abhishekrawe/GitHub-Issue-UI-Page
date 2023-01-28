@@ -79,13 +79,14 @@ function App() {
                       <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
                     </svg>
                     <a href={values.url}>{values.title}</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="badge">{values.user.type}</span>&nbsp;&nbsp;&nbsp;
+                    <span className="badge">{values.labels.map(label =>(label.name.toLowerCase().includes("component")) && (label.name))}</span>&nbsp;&nbsp;&nbsp;
                     <span className="badgea">{values.labels.map(label => label.name)}
-                      <span className="tooltiptext"> {values.labels.map(label => label.description)}  </span>
+                    <span className="tooltiptext"> {values.labels.map(label => label.description)}  </span>
                     </span>&nbsp;&nbsp;
                     <span className="badgec">{values.labels.map(label =>(label.name.toLowerCase().includes("bug")) && (label.name))}</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className='badgeb'> {values.labels.map(label =>(label.name.toLowerCase().includes("unconfirmed")) && (label.name))}</span>
-                    {/* <span className="chat"> </span> */}
+                    <span className='badgeb'> {values.labels.map(label =>(label.name.toLowerCase().includes("unconfirmed")) && (label.name))}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className='badged'> {values.labels.map(label =>(label.name.toLowerCase().includes("cla")) && (label.name))}</span>
+                    {/* <span className="chat"> </span> */} 
                   </h3>
 
                   <span class="muted"> #{values.number} opened at {values.updated_at} by <a href={values.user.html_url}>{values.user.login}</a></span>
