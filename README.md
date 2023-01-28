@@ -1,6 +1,6 @@
 
 
-# ❄️LegalPay Assignment
+# ❄️Assignment
 
 # 📌depolyed link  [here](https://assignment-murex.vercel.app/).
 
