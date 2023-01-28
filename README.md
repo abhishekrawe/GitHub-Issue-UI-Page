@@ -16,6 +16,9 @@ https://user-images.githubusercontent.com/65603830/215286581-54d19835-89ef-4406-
 
 
 
-# 🐸Problem Statement and my approach (अप्रोच्‌)🐸
+# 🐸Problem Statement 🐸
 
-
+### 🤖GitHub Issues Page UI Development 
+=> Make the responsive layout of Github's Issues page using React acc. to the attached image.
+=> For data used in the image use the response data from API "https://api.github.com/repos/facebook/react/issues"
+=> Add Infinite Scroll to allow navigating through the next page of issues
