@@ -66,3 +66,36 @@ html {
     border: 1px solid transparent;
     border-radius: 2em; 
 }
+
+.octicon-eye{
+  color: white
+}
+
+.octicon-eye{
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.octicon-repo-forked{
+  color: white
+}
+
+.octicon-repo-forked{
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.octicon-star{
+  color: white
+}
+
+.octicon-star{
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
